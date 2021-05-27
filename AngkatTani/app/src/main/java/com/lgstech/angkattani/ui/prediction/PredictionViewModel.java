@@ -1,14 +1,14 @@
-package com.lgstech.angkattani.ui.home;
+package com.lgstech.angkattani.ui.prediction;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class HomeViewModel extends ViewModel {
+public class PredictionViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public HomeViewModel() {
+    public PredictionViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is home fragment");
     }
