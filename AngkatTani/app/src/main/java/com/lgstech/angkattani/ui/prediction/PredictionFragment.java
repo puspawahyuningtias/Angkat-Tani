@@ -23,11 +23,11 @@ public class PredictionFragment extends Fragment {
         predictionViewModel =
                 new ViewModelProvider(this).get(PredictionViewModel.class);
         View root = inflater.inflate(R.layout.fragment_prediction, container, false);
-        final TextView textView = root.findViewById(R.id.text_home);
+//        final TextView textView = root.findViewById(R.id.text_home);
         predictionViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-                textView.setText(s);
+//                textView.setText(s);
             }
         });
         return root;
