@@ -7,24 +7,33 @@
     tools:context=".ui.detection.DetectionFragment">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:id="@+id/tv_type_of_plant"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="@string/title_detection"
-        android:textAllCaps="true"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="16dp"
+        android:text="@string/type_of_plants"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spinner_detection"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_type_of_plant" />
+
+    <ImageButton
+        android:id="@+id/ib_camera"
+        android:layout_width="127dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/green_light"
+        android:src="@drawable/ic_baseline_photo_camera_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_detection" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

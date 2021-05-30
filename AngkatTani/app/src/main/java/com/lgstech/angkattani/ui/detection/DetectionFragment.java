@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -25,18 +24,18 @@ public class DetectionFragment extends Fragment {
         detectionViewModel =
                 new ViewModelProvider(this).get(DetectionViewModel.class);
         View root = inflater.inflate(R.layout.fragment_detection, container, false);
-        Spinner spinner = root.findViewById(R.id.spinner);
-// Create an ArrayAdapter using the string array and a default spinner layout
+        Spinner spinner = root.findViewById(R.id.spinner_detection);
+        // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this.getActivity(),
                 R.array.planets_array, android.R.layout.simple_spinner_item);
-// Specify the layout to use when the list of choices appears
+        // Specify the layout to use when the list of choices appears
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-// Apply the adapter to the spinner
+        // Apply the adapter to the spinner
         spinner.setAdapter(adapter);
         detectionViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-//                textView.setText(s);
+        //                textView.setText(s);
             }
         });
         return root;
