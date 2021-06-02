@@ -28,9 +28,10 @@ import cz.msebera.android.httpclient.Header;
 import static android.content.ContentValues.TAG;
 
 public class DataViewModel extends ViewModel {
-    private static final String URL = "https://192.168.100.27/api_capstone/";
+    private static final String URL = "https://angkat-tani-40404.et.r.appspot.com/";
+//    private static final String URL = "https://192.168.100.27/api_capstone/";
     //    private static final String URL = "https://192.168.5.104/api_capstone/";
-    private static final String HISTORY = URL + "history.php";
+    private static final String HISTORY = URL + "history_baru.php";
     private static final String CEKPRICE = URL + "cekprice.php";
     private static final String PREDICT = URL + "prediksi.php";
     public static float hasil;

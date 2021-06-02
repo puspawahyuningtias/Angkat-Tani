@@ -16,20 +16,11 @@ import com.lgstech.angkattani.R;
 
 public class AboutFragment extends Fragment {
 
-    private AboutViewModel aboutViewModel;
-
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        aboutViewModel =
-                new ViewModelProvider(this).get(AboutViewModel.class);
         View root = inflater.inflate(R.layout.fragment_about, container, false);
         final TextView textView = root.findViewById(R.id.tv_description);
-        aboutViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                textView.setText(s);
-            }
-        });
+        textView.setText("Angkat Tani is a project part of capstonce project under Bangkit Program 2021. Angkat Tani is a projet that help farmers to optimalize their crop, so they can get the highest income, and finally reach economic welfare.");
         return root;
     }
 }

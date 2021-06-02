@@ -79,4 +79,19 @@
         app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="@+id/etdate"
         app:layout_constraintTop_toBottomOf="@+id/etdate" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/loadproses"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        app:indicatorColor="@color/green_dark"
+        app:indicatorName="LineSpinFadeLoaderIndicator"
+        app:layout_constraintEnd_toEndOf="@+id/etdate"
+        app:layout_constraintStart_toStartOf="@+id/etdate"
+        app:layout_constraintTop_toBottomOf="@+id/etdate" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -70,8 +70,14 @@ public class PredictionFragment extends Fragment {
                     tvdate.setText(binding.etdate.getText().toString());
                     builder.setView(vw);
                     builder.show();
+                    binding.loadproses.setVisibility(View.GONE);
+                    binding.btncekprice.setVisibility(View.VISIBLE);
+                    binding.btnpredict.setVisibility(View.VISIBLE);
                 } else {
                     Toast.makeText(getActivity(), "Data not available", Toast.LENGTH_SHORT).show();
+                    binding.loadproses.setVisibility(View.GONE);
+                    binding.btncekprice.setVisibility(View.VISIBLE);
+                    binding.btnpredict.setVisibility(View.VISIBLE);
                 }
             }
         });
@@ -96,7 +102,7 @@ public class PredictionFragment extends Fragment {
                 else if (i == 14) dataViewModel.setHistory("14");
                 else if (i == 15) dataViewModel.setHistory("15");
                 else if (i == 16) dataViewModel.setHistory("16");
-                Toast.makeText(getActivity(), String.valueOf(binding.spinnerComodity.getSelectedItemPosition()), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getActivity(), String.valueOf(binding.spinnerComodity.getSelectedItemPosition()), Toast.LENGTH_SHORT).show();
 
             }
 
@@ -168,7 +174,11 @@ public class PredictionFragment extends Fragment {
                 binding.btncekprice.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        Log.i("TAG", "PRICE");
                         dataViewModel.setPrice(String.valueOf(binding.spinnerComodity.getSelectedItemPosition()), binding.etdate.getText().toString(), true);
+                        binding.btnpredict.setVisibility(View.GONE);
+                        binding.btncekprice.setVisibility(View.GONE);
+                        binding.loadproses.setVisibility(View.VISIBLE);
                     }
                 });
             } else if (System.currentTimeMillis() < strDate.getTime()) {
@@ -179,6 +189,9 @@ public class PredictionFragment extends Fragment {
                     public void onClick(View view) {
                         Log.i("TAG", "PREDICT");
                         dataViewModel.setPrice(String.valueOf(binding.spinnerComodity.getSelectedItemPosition()), binding.etdate.getText().toString(), false);
+                        binding.btncekprice.setVisibility(View.GONE);
+                        binding.btnpredict.setVisibility(View.GONE);
+                        binding.loadproses.setVisibility(View.VISIBLE);
                     }
                 });
             }
