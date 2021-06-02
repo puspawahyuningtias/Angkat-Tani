@@ -14,13 +14,26 @@
     <string name="chart_prediction">Chart Prediction</string>
 
     <string-array name="planets_array">
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
+        <item>Rice</item>
+        <item>Rice Low Quality I</item>
+        <item>Rice Low Quality II</item>
+        <item>Rice Medium Quality I</item>
+        <item>Rice Medium Quality II</item>
+        <item>Rice Super Quality I</item>
+        <item>Rice Super QUality II</item>
+        <item>Shallot</item>
+        <item>Shallot Medium Size</item>
+        <item>Garlic</item>
+        <item>Garlic Medium Size</item>
+        <item>Red Chili</item>
+        <item>Red Chili Big</item>
+        <item>Red Chili Curly</item>
+        <item>Cayenne Pepper</item>
+        <item>Cayenne Pepper Green</item>
+        <item>Cayenne Pepper Red</item>
+    </string-array>
+    <string-array name="plant_array">
+        <item>Rice</item>
+        <item>Rice Low Quality I</item>
     </string-array>
 </resources>

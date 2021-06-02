@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".ui.prediction.PredictionFragment">
 
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barchart"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/tv_type_of_plant"
@@ -17,7 +24,7 @@
         android:text="@string/comodity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/barchart" />
 
     <Spinner
         android:id="@+id/spinner_comodity"
@@ -30,14 +37,46 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_type_of_plant" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="225dp"
-        android:layout_height="225dp"
-        android:src="@drawable/chart"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:contentDescription="@string/chart_prediction" />
+    <EditText
+        android:id="@+id/etdate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_calendar"
+        android:drawablePadding="10dp"
+        android:hint="Choose date"
+        android:background="@null"
+        android:inputType="text"
+        android:paddingLeft="8dp"
+        android:paddingTop="3dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="3dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/spinner_comodity"
+        app:layout_constraintStart_toStartOf="@+id/spinner_comodity"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_comodity" />
 
+    <Button
+        android:id="@+id/btncekprice"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Cek Price"
+        android:textSize="10sp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/etdate"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="@+id/etdate"
+        app:layout_constraintTop_toBottomOf="@+id/etdate" />
+
+    <Button
+        android:id="@+id/btnpredict"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Prediction"
+        android:textSize="10sp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/etdate"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="@+id/etdate"
+        app:layout_constraintTop_toBottomOf="@+id/etdate" />
 </androidx.constraintlayout.widget.ConstraintLayout>
