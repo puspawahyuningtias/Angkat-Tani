@@ -10,7 +10,7 @@ public class AboutViewModel extends ViewModel {
 
     public AboutViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("Description Angkat Tani");
+        mText.setValue("Angkat Tani is a project part of capstonce project under Bangkit Program 2021. Angkat Tani is a projet that help farmers to optimalize their crop, so they can get the highest income, and finally reach economic welfare.");
     }
 
     public LiveData<String> getText() {

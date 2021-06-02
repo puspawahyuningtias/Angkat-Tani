@@ -12,6 +12,10 @@
     <string name="comodity">Comodity</string>
     <string name="logo_angkat_tani">Logo Angkat Tani</string>
     <string name="chart_prediction">Chart Prediction</string>
+    <string name="reference">Reference</string>
+    <string name="slogan">Angkat Tani\nTogether we grow up!\nTogether we create economic welfare!\nTogether we reach the best future!</string>
+    <string name="ref">Dataset: PIHPS NASIONAL Dataset, Kaggle Dataset</string>
+    <string name="website">Website</string>
 
     <string-array name="planets_array">
         <item>Rice</item>
