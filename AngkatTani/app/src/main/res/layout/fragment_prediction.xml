@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.prediction.PredictionFragment">
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barchart"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_type_of_plant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/comodity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/barchart" />
+
+    <Spinner
+        android:id="@+id/spinner_comodity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_type_of_plant" />
+
+    <EditText
+        android:id="@+id/etdate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_calendar"
+        android:drawablePadding="10dp"
+        android:hint="Choose date"
+        android:background="@null"
+        android:inputType="text"
+        android:paddingLeft="8dp"
+        android:paddingTop="3dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="3dp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/spinner_comodity"
+        app:layout_constraintStart_toStartOf="@+id/spinner_comodity"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_comodity" />
+
+    <Button
+        android:id="@+id/btncekprice"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Cek Price"
+        android:textSize="10sp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/etdate"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="@+id/etdate"
+        app:layout_constraintTop_toBottomOf="@+id/etdate" />
+
+    <Button
+        android:id="@+id/btnpredict"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Prediction"
+        android:textSize="10sp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/etdate"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="@+id/etdate"
+        app:layout_constraintTop_toBottomOf="@+id/etdate" />
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/loadproses"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        app:indicatorColor="@color/green_dark"
+        app:indicatorName="LineSpinFadeLoaderIndicator"
+        app:layout_constraintEnd_toEndOf="@+id/etdate"
+        app:layout_constraintStart_toStartOf="@+id/etdate"
+        app:layout_constraintTop_toBottomOf="@+id/etdate" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

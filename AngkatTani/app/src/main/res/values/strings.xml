@@ -1,3 +1,43 @@
 <resources>
     <string name="app_name">Angkat Tani</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_prediction">Prediction</string>
+    <string name="title_detection">Detection</string>
+    <string name="title_about">About</string>
+    <string name="disease_detection">Disease Detection</string>
+    <string name="type_of_plants">Type of Plants you want disease detection</string>
+    <string name="comodity">Comodity</string>
+    <string name="logo_angkat_tani">Logo Angkat Tani</string>
+    <string name="chart_prediction">Chart Prediction</string>
+    <string name="reference">Reference</string>
+    <string name="slogan">Angkat Tani\nTogether we grow up!\nTogether we create economic welfare!\nTogether we reach the best future!</string>
+    <string name="ref">Dataset: PIHPS NASIONAL Dataset, Kaggle Dataset</string>
+    <string name="website">Website</string>
+
+    <string-array name="planets_array">
+        <item>Rice</item>
+        <item>Rice Low Quality I</item>
+        <item>Rice Low Quality II</item>
+        <item>Rice Medium Quality I</item>
+        <item>Rice Medium Quality II</item>
+        <item>Rice Super Quality I</item>
+        <item>Rice Super QUality II</item>
+        <item>Shallot</item>
+        <item>Shallot Medium Size</item>
+        <item>Garlic</item>
+        <item>Garlic Medium Size</item>
+        <item>Red Chili</item>
+        <item>Red Chili Big</item>
+        <item>Red Chili Curly</item>
+        <item>Cayenne Pepper</item>
+        <item>Cayenne Pepper Green</item>
+        <item>Cayenne Pepper Red</item>
+    </string-array>
+    <string-array name="plant_array">
+        <item>Rice</item>
+        <item>Tomato</item>
+    </string-array>
 </resources>
