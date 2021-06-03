@@ -126,7 +126,8 @@ public class DetectionFragment extends Fragment {
                 });
         binding.spinnerDetection.setAdapter(adapter);
         try {
-            tflite = new Interpreter(loadmodelfile(getActivity()));
+            if(binding.spinnerDetection.getSelectedItemPosition()==0)tflite = new Interpreter(loadmodelfile(getActivity()));
+            else if(binding.spinnerDetection.getSelectedItemPosition()==1)tflite = new Interpreter(loadtomato(getActivity()));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -145,7 +146,7 @@ public class DetectionFragment extends Fragment {
                     @Override
                     public void onClick(View view) {
 
-                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
                             if (getActivity().checkSelfPermission(Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
                                 requestPermissions(new String[]{Manifest.permission.CAMERA}, MY_CAMERA_PERMISSION_CODE);
                             } else {
@@ -238,7 +239,10 @@ public class DetectionFragment extends Fragment {
     private void showresult() {
 
         try {
-            labels = FileUtil.loadLabels(getActivity(), "newdict.txt");
+            if (binding.spinnerDetection.getSelectedItemPosition() == 0)
+                labels = FileUtil.loadLabels(getActivity(), "newdict.txt");
+            else if (binding.spinnerDetection.getSelectedItemPosition() == 1)
+                labels = FileUtil.loadLabels(getActivity(), "tomato.txt");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -257,7 +261,19 @@ public class DetectionFragment extends Fragment {
     }
 
     private MappedByteBuffer loadmodelfile(Activity activity) throws IOException {
+
         AssetFileDescriptor assetFileDescriptor = getActivity().getAssets().openFd("beras.tflite");
+        FileInputStream fileInputStream = new FileInputStream(assetFileDescriptor.getFileDescriptor());
+        FileChannel fileChannel = fileInputStream.getChannel();
+        long starOffset = assetFileDescriptor.getStartOffset();
+        long length = assetFileDescriptor.getLength();
+        return fileChannel.map(FileChannel.MapMode.READ_ONLY, starOffset, length);
+
+
+    }
+
+    private MappedByteBuffer loadtomato(Activity activity) throws IOException {
+        AssetFileDescriptor assetFileDescriptor = getActivity().getAssets().openFd("tomato.tflite");
         FileInputStream fileInputStream = new FileInputStream(assetFileDescriptor.getFileDescriptor());
         FileChannel fileChannel = fileInputStream.getChannel();
         long starOffset = assetFileDescriptor.getStartOffset();
