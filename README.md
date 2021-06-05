@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="#">
-    <img src="https://github.com/puspawahyuningtias/Angkat-Tani/blob/master/images/logo.jpeg" alt="Angkat Tani logo" width="50%" height="30%">
+    <img src="https://github.com/puspawahyuningtias/Angkat-Tani/blob/master/images/logo.jpeg" alt="Angkat Tani logo" width="30%" height="10%">
   </a>
 </p>
 
