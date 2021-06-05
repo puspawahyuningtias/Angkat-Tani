@@ -4,7 +4,7 @@ This website devided into two parts that is for user interface and admin:
 
 This website develops using:
  - Bootstrap framework
- - Chart.js for garfik
+ - Chart.js for garph
  - Cloud sql for database
  - Cloud function for connecting to machine learning
  - Unsplash for picture
