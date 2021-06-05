@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="#">
-    <img src="Angkat-Tani\images\logo.jpeg" alt="Angkat Tani logo" width="200" height="165">
+    <img src="Angkat-Tani\images\logo.jpeg" alt="Angkat Tani logo" width="500" height="200">
   </a>
 </p>
 
@@ -12,6 +12,7 @@
   <br>
   <img src="https://img.shields.io/badge/Team-LGs%20Tech-brightgreen">
   <img src="https://img.shields.io/badge/ID-B21--CAP0059-brightgreen">
+  <br>
   <a href="https://angkat-tani-40404.et.r.appspot.com/"><strong>Grow with Angkat Tani »</strong></a>
   <br>
   <br>
@@ -79,7 +80,7 @@ Read the [Machine Learning part](https://github.com/puspawahyuningtias/Angkat-Ta
 ## Thanks
 
 <p align="center" >
-  <img src="Angkat-Tani\images\bangkit2021.png" alt="Bangit Academy" width="192" height="42">
+  <img src="https://www.dicoding.com/blog/wp-content/uploads/2020/12/Cover.png" alt="Bangit Academy" width="500" height="200">
 </p>
 
 Thanks to [Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka](https://www.linkedin.com/company/bangkit-academy/mycompany/) for providing the chance and infrastructure that allows us to grow!
