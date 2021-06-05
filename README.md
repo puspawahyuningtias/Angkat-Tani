@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="#">
-    <img src="https://github.com/puspawahyuningtias/Angkat-Tani/blob/master/images/logo.jpeg" alt="Angkat Tani logo" width="500" height="200">
+    <img src="https://github.com/puspawahyuningtias/Angkat-Tani/blob/master/images/logo.jpeg" alt="Angkat Tani logo" width="50%" height="50%">
   </a>
 </p>
 
@@ -39,7 +39,7 @@
 ## General Background
 
 <p align="center" >
-  <img src="https://image.freepik.com/free-photo/panorama-paddy-fields-morning-light_80375-24.jpg" alt="Indonesia Agricultural" width="50%" height="50%">
+  <img src="https://image.freepik.com/free-photo/panorama-paddy-fields-morning-light_80375-24.jpg" alt="Indonesia Agricultural" width="70%" height="70%">
 </p>
 
 Indonesia is the largest tropical agricultural country in the world after Brazil. However, with such a large agricultural potential, Indonesia is still behind in exporting agricultural products compared to several other countries because it is lagging in terms of supporting technology. Currently, there are no tools to predict the crop prices, so farmers are confused about what to plant, and sometimes it make the wrong decicion to chose what plant will give the maximum profit. In addition, the various types of diseases in crops trouble farmers to choose the suitable treatment method. Hence, [Angkat Tani](#) present to predict the crop price by analyzing patterns in past data and determine crop disease based on their visual characteristics. We hope.. we can make Indonesia Agricultural grow together!!
