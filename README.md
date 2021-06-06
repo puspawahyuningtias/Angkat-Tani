@@ -52,7 +52,7 @@ Several quick start options are available:
 - [Download the latest release](https://github.com/puspawahyuningtias/Angkat-Tani/archive/refs/heads/master.zip)
 - Clone the repo: `git clone https://github.com/puspawahyuningtias/Angkat-Tani.git`
 
-Read the [Machine Learning part](https://github.com/puspawahyuningtias/Angkat-Tani/tree/master/Machine%20Learning), [Cloud Computing part](https://github.com/puspawahyuningtias/Angkat-Tani/tree/master/Cloud%20Functions) and [Android part](https://github.com/puspawahyuningtias/Angkat-Tani/tree/master/AngkatTani) for information on the framework contents, templates, examples and more.
+Read the [![Machine Learning](https://img.shields.io/badge/Part-Machine%20Learning-brightgreen)](https://github.com/puspawahyuningtias/Angkat-Tani/tree/master/Machine%20Learning), [![Cloud Computing](https://img.shields.io/badge/Part-Cloud%20Computing-brightgreen)](https://github.com/puspawahyuningtias/Angkat-Tani/tree/master/Cloud%20Computing) and [![Android](https://img.shields.io/badge/Part-Android-brightgreen)](https://github.com/puspawahyuningtias/Angkat-Tani/tree/master/AngkatTani) for information on the framework contents, templates, examples and more.
 
 
 ## What's included
