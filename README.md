@@ -74,7 +74,7 @@ Read the [Machine Learning part](https://github.com/puspawahyuningtias/Angkat-Ta
 |   Agung Budi Prasetyo  |  A1821856  |  Mobile Development  |            Mobile Developer           |     [![agung-github][github-shield]][agung-github-url][![agung-linkedin][linkedin-shield]][agung-linkedin-url]     |
 |    Hasna Nur Hanifah   |  M1201544  |   Machine Learning   |        Machine Learning Engineer      |     [![hasna-github][github-shield]][hasna-github-url][![hasna-linkedin][linkedin-shield]][hasna-linkedin-url] |
 |  Eko David Kurniawan   |  M0080895  |   Machine Learning   |        Machine Learning Engineer      |     [![david-github][github-shield]][david-github-url][![david-linkedin][linkedin-shield]][david-linkedin-url] |
-| Diyastri Khotimatul Huda |  C0080901  |  Cloud Computing   |          Front End and Back End (Application, Storage, and Security)         |     [![diyas-github][github-shield]][diyas-github-url][![diyas-linkedin][linkedin-shield]][diyas-linkedin-url]     |
+| Diyastri Khotimatul Huda |  C0080901  |  Cloud Computing   |          Full Stack Developer         |     [![diyas-github][github-shield]][diyas-github-url][![diyas-linkedin][linkedin-shield]][diyas-linkedin-url]     |
 |      Maulana Iskak     |  C0080893  |    Cloud Computing   |           Cloud Engineer          |      [![maul-github][github-shield]][maul-github-url][![maul-linkedin][linkedin-shield]][maul-linkedin-url] |
 
 ## Thanks
