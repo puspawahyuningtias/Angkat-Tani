@@ -75,7 +75,7 @@ Read the [Machine Learning part](https://github.com/puspawahyuningtias/Angkat-Ta
 |    Hasna Nur Hanifah   |  M1201544  |   Machine Learning   |        Machine Learning Engineer      |     [![hasna-github][github-shield]][hasna-github-url][![hasna-linkedin][linkedin-shield]][hasna-linkedin-url] |
 |  Eko David Kurniawan   |  M0080895  |   Machine Learning   |        Machine Learning Engineer      |     [![david-github][github-shield]][david-github-url][![david-linkedin][linkedin-shield]][david-linkedin-url] |
 | Diyastri Khotimatul Huda |  C0080901  |  Cloud Computing   |          Front End and Back End (Application, Storage, and Security)         |     [![diyas-github][github-shield]][diyas-github-url][![diyas-linkedin][linkedin-shield]][diyas-linkedin-url]     |
-|      Maulana Iskak     |  C0080893  |    Cloud Computing   |           Back End (Security, Service, and Insfrastructure)           |      [![maul-github][github-shield]][maul-github-url][![maul-linkedin][linkedin-shield]][maul-linkedin-url] |
+|      Maulana Iskak     |  C0080893  |    Cloud Computing   |           Cloud Engineer          |      [![maul-github][github-shield]][maul-github-url][![maul-linkedin][linkedin-shield]][maul-linkedin-url] |
 
 ## Thanks
 
