@@ -13,7 +13,7 @@ This website develops using:
  - <a href="https://github.com/puspawahyuningtias/Angkat-Tani/tree/master/Cloud%20Computing/Cloud%20Functions">Cloud Function for connecting to machine learning models</a>
  - <a href="https://unsplash.com/">Unsplash for picture</a>
  - <a href="https://www.flaticon.com/">Flaticon for icon</a>
- - <a href="https://angkat-tani-40404.et.r.appspot.com/">App Engine for deployment</a>
+ - <a href="https://github.com/puspawahyuningtias/Angkat-Tani/blob/master/Cloud%20Computing/Website/FIle_Access.txt">App Engine for deployment</a>
 <br>
 
 You can access to our website using this link:
