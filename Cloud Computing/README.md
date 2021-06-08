@@ -71,7 +71,7 @@
  </p>
  <br>
  
-<h3> After planning those thing, we also create mock up then change it into a reachable aplication. You can access using this link</h3>
+<h3> After planning those thing, we also create mock up then change it into a reachable aplication. You can access the application using this link</h3>
 <ul>
   <li><a href="https://storage.googleapis.com/aplikasi_angkat_tani/Angkat_Tani%20V1.apk">Android application</a></li>
   <li><a href="https://angkat-tani-40404.et.r.appspot.com/">Website</a></li>
