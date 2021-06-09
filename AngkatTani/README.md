@@ -33,9 +33,11 @@
   <img src="https://github.com/puspawahyuningtias/Angkat-Tani/blob/master/AngkatTani/flow.png" alt="GCP Service" width="70%" height="50%">
 </div>
 <br>
+<h3>Testing apps</h3>
+<br>
   <ul>
-  <li>Import database to testing in local : https://github.com/puspawahyuningtias/Angkat-Tani/blob/master/AngkatTani/dbangkattani2.sql </li>
-  <li>Import REST API to htdocs / www and ajust connection : https://github.com/puspawahyuningtias/Angkat-Tani/blob/master/AngkatTani/api_capstone.zip </li>
+  <li>Import database : https://github.com/puspawahyuningtias/Angkat-Tani/blob/master/AngkatTani/dbangkattani2.sql </li>
+  <li>Import REST API and ajust connection : https://github.com/puspawahyuningtias/Angkat-Tani/blob/master/AngkatTani/api_capstone.zip </li>
   </ul>
 
   
