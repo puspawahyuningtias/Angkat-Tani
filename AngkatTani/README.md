@@ -18,11 +18,12 @@
 </div>
 <br>
 <p>
+  
   We choose cloud SQL as database because it is easy to integrate with websites, android, and machine learning.
   Cloud storage to save our data because it suitable to use and cloud storage provides fast, low-cost, highly durable storage.
   Cloud Functions to deploy machine learning models, because it is simple, serverless, and supports the Python programming language.
   Also, the integration of cloud functions with websites and android is easy to do.
-  And last, We choose App Engine to deploy our website, becuause App Engine which is Platform as a Service,
+  And last, We choose App Engine to deploy our website and rest api to parse data into android, becuause App Engine which is Platform as a Service,
   so we don't have to pay attention to cloud infrastructure. And, App Engine can also work with other GCP services like Cloud SQL.
 </p>
 <br>
