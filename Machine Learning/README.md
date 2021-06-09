@@ -51,6 +51,45 @@ The dataset have a date range from august 2017 until may 2021. we just use data 
 
 ## Plant Disease Detection
 
+For this project, we create some multiclass classification of plant disease like rice leaf, tomato leaf, and cotton leaf.
+
+### Dataset
+Training Data and Testing Data that were used are sourced from kaggle
+1. Rice leaf : https://www.kaggle.com/minhhuy2810/rice-diseases-image-dataset
+2. Tomato leaf https://www.kaggle.com/kaustubhb999/tomatoleaf 
+3. cotton leaf https://www.kaggle.com/janmejaybhoi/cotton-disease-dataset
+
+### 1. Rice Leaf
+
+We use inceptionV3 and mobilenetV2 for the architecture models.
+From the mobilenetV2 models we get 51% and the InceptionV3 models we get 54% validation accuracy
+
+### InceptionV3
+![image](https://user-images.githubusercontent.com/51345434/121335303-a9e13580-c944-11eb-8ebe-18c3b970a523.png)
+
+
+### MobilenetV2
+![image](https://user-images.githubusercontent.com/51345434/121335132-85855900-c944-11eb-8aa3-1da27c2c1422.png)
+
+### 2. Tomato Leaf
+We also use inceptionV3 and mobilenetV2 for the architecture models. From the mobilenetV2 models we get 97% validation accuracy and the InceptionV3 models we get 93% validation accuracy
+
+### Inception V3
+![image](https://user-images.githubusercontent.com/51345434/121335759-15c39e00-c945-11eb-86c5-2edc26808ecf.png)
+
+### MobilenetV2
+![image](https://user-images.githubusercontent.com/51345434/121335909-3a1f7a80-c945-11eb-9425-f9cf9c10ac79.png)
+
+### 3. Cotton Leaf
+we use inceptionV3 and resnet152V2 for the architecture models. From the inceptionV3 models we get 95% validation accuracy and from the resnet152V2 models we also get 95% validation accuracy, but the inceptionV3 models perform worst when predicting new data compared to the resnet152V2 models.
+
+### InceptionV3
+![image](https://user-images.githubusercontent.com/51345434/121336236-87035100-c945-11eb-9f91-2bbcb2e918b0.png)
+
+### Resnet152V2
+![image](https://user-images.githubusercontent.com/51345434/121336393-aac69700-c945-11eb-90f3-50e2c317d373.png)
+![image](https://user-images.githubusercontent.com/51345434/121336437-b44fff00-c945-11eb-9fb2-0937d6d38bb4.png)
+
 
 
 
