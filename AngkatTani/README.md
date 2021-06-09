@@ -2,6 +2,13 @@
 <h1 align="center"> Android </h1>
 
 <br>
+<h3>How to clone :</h3>
+<ul>
+  <li>Clone in https://github.com/puspawahyuningtias/Angkat-Tani</li>
+  <li>Close clone first because project not succesfuly load</li>
+  <li>Open file in next folder "AngkatTani" from clone</li>
+</ul>
+<br>
 <h3>In this project, Android need to do:</h3>
 <ul>
   <li>Minimun Android Studio Version 4.0</li>
@@ -40,6 +47,9 @@
   <li>Import database : https://github.com/puspawahyuningtias/Angkat-Tani/blob/master/AngkatTani/dbangkattani2.sql </li>
   <li>Import REST API and ajust connection : https://github.com/puspawahyuningtias/Angkat-Tani/blob/master/AngkatTani/api_capstone.zip </li>
   </ul>
+<br>
+
+
 
   
   
