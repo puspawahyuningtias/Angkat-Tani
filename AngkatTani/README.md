@@ -13,8 +13,7 @@
 <ul>
   <li>Minimun Android Studio Version 4.0</li>
   <li>Deploy machine learning model in cloud and in android with tensorflow lite</li>
-  <li>Create REST API to connect Cloud to get data</li>
-  <li>Deploy android application in cloud</li>
+  <li>Deploy REST API in Cloud to get data</li>
 </ul>
 <br>
 
