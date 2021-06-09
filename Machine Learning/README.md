@@ -91,5 +91,5 @@ we use inceptionV3 and resnet152V2 for the architecture models. From the incepti
 ![image](https://user-images.githubusercontent.com/51345434/121336437-b44fff00-c945-11eb-9fb2-0937d6d38bb4.png)
 
 
-
+## After that, we save all of the models to .h5 and tflite extension for further deployment on cloud and android mobile
 
