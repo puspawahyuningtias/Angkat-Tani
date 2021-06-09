@@ -63,7 +63,6 @@ Read the [![Machine Learning](https://img.shields.io/badge/Part-Machine%20Learni
 
    - crops sales data and prediction
    - plant disease classification
-   - farmer community
 
 
 ## Creators
